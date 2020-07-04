@@ -1,0 +1,33 @@
+.app{
+    text-align: center;
+
+    .header{
+        font-size: 3rem;
+    }
+}
+
+.card{
+    border-radius: .5rem;
+    border-width: .25rem;
+    box-shadow: 4px 4px 8px 0 rgba( 0, 0, 0, .2 );
+    display: inline-block;
+    background-color: #9eebcf;
+    padding: 1rem;
+    margin: .5rem;
+    text-align: center;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.search-box{
+    padding: .5rem;
+
+    .input{
+        border-style: solid;
+        border-Width: 1px;
+        border-color: #19a974;
+        background-color: #cdecff;
+        padding: 1rem;
+    }
+}
